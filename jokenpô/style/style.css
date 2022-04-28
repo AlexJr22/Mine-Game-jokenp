@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-color: rgba(0, 0, 255, 0.209);
+}
+div#resultado {
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 100px;
+}
+#opcoes {
+    background-color: white;
+    height: 150px;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 20px;
+}
