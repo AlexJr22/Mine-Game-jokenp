@@ -21,6 +21,18 @@ div#resultado {
     margin: auto;
     
 }
+div#Rpc {
+    text-align: center;
+}
+div#resp {
+    background-color: aliceblue;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+}
+div#Rjg {
+    text-align: center;
+}
 #opcoes {
     background-color: white;
     height: 150px;
