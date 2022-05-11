@@ -6,6 +6,12 @@
 body {
     background-color: rgba(0, 0, 255, 0.209);
 }
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+}
 div#resultado {
     background-color: white;
     height: 350px;
@@ -13,7 +19,7 @@ div#resultado {
     border-radius: 15px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
     margin: auto;
-    margin-top: 100px;
+    
 }
 #opcoes {
     background-color: white;
@@ -23,4 +29,12 @@ div#resultado {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
     margin: auto;
     margin-top: 20px;
+}
+.bottom {
+    background-color: rgb(50, 135, 250);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 60px;
 }
