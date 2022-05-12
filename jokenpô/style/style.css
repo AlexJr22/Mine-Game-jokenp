@@ -23,15 +23,19 @@ div#resultado {
 }
 div#Rpc {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
 }
 div#resp {
     background-color: aliceblue;
     height: 200px;
     width: 450px;
     margin: auto;
+    border-radius: 15px;
 }
 div#Rjg {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #opcoes {
     background-color: white;
