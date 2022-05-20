@@ -49,13 +49,19 @@ div#Rjg {
 .bottom {
     background-color: rgb(50, 135, 250);
     display: inline-block;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
     height: 100px;
     width: 100px;
     margin-top: 25px;
     margin-left: 60px;
+    transition: 1s;
+}
+.bottom:hover {
+    background-color: rgba(150, 150, 255, 0.637);
+    border-radius: 8px;
+    transition: 200ms;
 }
 .bottom p {
     font-size: 1em;
     text-align: center;
-    
 }
