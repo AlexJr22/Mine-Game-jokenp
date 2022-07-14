@@ -6,7 +6,7 @@
 body {
     background-color: rgba(0, 0, 255, 0.209);
 }
-p {
+#resultado > p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     text-align: center;
@@ -37,31 +37,39 @@ div#Rjg {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 #opcoes {
+    display: flex;
     background-color: white;
-    height: 150px;
     width: 550px;
+    height: 150px;
+    margin: 21px auto;
     border-radius: 15px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .bottom {
-    background-color: rgb(50, 135, 250);
-    display: inline-block;
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
     height: 100px;
     width: 100px;
-    margin-top: 25px;
-    margin-left: 60px;
-    transition: 1s;
+    background-color: #9898ff;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
 }
+
 .bottom:hover {
-    background-color: rgba(150, 150, 255, 0.637);
-    border-radius: 8px;
-    transition: 200ms;
+    border-radius: 20px;
+    background-color: #9898ff7a;
+
 }
-.bottom p {
-    font-size: 1em;
+
+.bottom > p {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
     text-align: center;
 }

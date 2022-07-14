@@ -1,4 +1,6 @@
 const respComputador = document.getElementById("Rpc")
+const respJogador = document.getElementById("Rjg")
+
 
 
 function jogar(String){
@@ -11,40 +13,39 @@ function jogar(String){
     if(String == 'pedra') { // Se o usuário escolher PEDRA
         
         if(items == 'pedra') { // EMPATE
-            // console.log('pedra')
-            
+            respComputador.innerHTML = 'O computador escolheu: Pedra'
         }
         if(items == 'papel') { // DERROTA
-            console.log('papel')
+            respComputador.innerHTML = 'O computador escolheu: Papel'
         }
         if(items == 'tesoura') { // VITORIA
-            console.log('tesoura')
+            respComputador.innerHTML = 'O computador escolheu: Tesoura'
         }
-
+        
     }
     if(String == 'papel') { // se o usuário escolher PAPEL
-
+        
         if(items == 'pedra') { // VITORIA
-            console.log('pedra')
+            respComputador.innerHTML = 'O computador escolheu: Pedra' 
         }
         if(items == 'papel') { // EMPATE
-            console.log('papel')
+            respComputador.innerHTML = 'O computador escolheu: Papel'
         }
         if(items == 'tesoura') { // DERROTA
-            console.log('tesoura')
+            respComputador.innerHTML = 'O computador escolheu: Tesoura'
         }
         
     }
     if(String == 'tesoura') { //se o usuário escolher TESOURA
         
         if(items == 'pedra') { // DERROTA
-            console.log('pedra')
+            respComputador.innerHTML = 'O computador escolheu: Pedra'            
         }
         if(items == 'papel') {  // VITORIA
-            console.log('papel')
+            respComputador.innerHTML = 'O computador escolheu: Papel'
         }
         if(items == 'tesoura') { // EMPATE
-            console.log('tesoura')
+            respComputador.innerHTML = 'O computador escolheu: Tesoura'
         }
         
     }
